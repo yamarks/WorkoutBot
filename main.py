@@ -157,3 +157,5 @@ async def send_message_12_hours_later(message: types.Message):
 if __name__ == "__main__":
     utils.create_database()
     executor.start_polling(dispatcher=dp, skip_updates=True, on_startup=on_startup)
+
+#dev
